@@ -100,7 +100,7 @@ export default function Home() {
 
             <div className="mt-20 justify-center align-center flex">
               <iframe
-                src="https://discord.com/widget?id=608570268691988490&theme=dark"
+                src="https://discord.com/widget?id=893023756849672223&theme=dark"
                 width="500"
                 height="500"
                 allowtransparency="true"
