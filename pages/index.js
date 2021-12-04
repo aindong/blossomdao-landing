@@ -83,7 +83,7 @@ export default function Home() {
               Comm<PinkText>unity</PinkText>
             </h1>
           </div>
-          <div className="text-center">
+          <div className="text-center mt-10">
             <p className="text-gray-500">
               We mainly hang out on Discord, but we have a bunch of other resources over there for you to enjoy as well!
             </p>
