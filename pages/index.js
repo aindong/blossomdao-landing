@@ -7,14 +7,12 @@ import { Title, DiscordBtn, PinkText, PinkCard, Button } from "../styles/index.t
 import pika from "../assets/pikadao.gif";
 
 const code = `BlossomDAO = {
-  "About": [
-  {
+  "About": {
       "domain": ".eth",
       "membership": "NFT",
       "desc": "Developers building out the Metaverse"
-    ]
-  };
-}`;
+  }
+};`;
 
 export default function Home() {
   return (
