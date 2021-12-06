@@ -79,9 +79,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="community" className="flex flex-col justify-center items-center max-w-2xl m-auto sm:py-12">
+        <div id="community" className="sm:flex flex-col justify-center items-center max-w-2xl m-auto sm:py-12">
           <div>
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-5xl font-bold text-center">
               Comm<PinkText>unity</PinkText>
             </h1>
           </div>
