@@ -19,8 +19,8 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Head>
-        <title>Blossom DAO</title>
-        <meta name="description" content="Blossom DAO" />
+        <title>BlossomDAO</title>
+        <meta name="description" content="Official website of BlossomDAO" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -79,7 +79,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="community" className="flex flex-col justify-center items-center max-w-2xl m-auto sm:py-36">
+        <div id="community" className="flex flex-col justify-center items-center max-w-2xl m-auto sm:py-12">
           <div>
             <h1 className="text-5xl font-bold">
               Comm<PinkText>unity</PinkText>

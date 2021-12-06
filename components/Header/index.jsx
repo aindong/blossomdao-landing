@@ -111,28 +111,28 @@ export default function Header() {
           <div className="md:hidden" id="mobile-menu">
             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <a
-                href="#"
+                href="#home"
                 className="text-black-300 hover:text-black-600 block px-3 py-2 rounded-md text-base font-medium"
               >
                 Home
               </a>
 
               <a
-                href="#"
+                href="#about"
                 className="text-black-300 hover:text-black-600 block px-3 py-2 rounded-md text-base font-medium"
               >
                 About
               </a>
 
               <a
-                href="#"
+                href="#community"
                 className="text-black-300 hover:text-black-600 block px-3 py-2 rounded-md text-base font-medium"
               >
                 Community
               </a>
 
               <a
-                href="#"
+                href="#contact"
                 className="text-black-300 hover:text-black-600 block px-3 py-2 rounded-md text-base font-medium"
               >
                 Contact
