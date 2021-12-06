@@ -4,8 +4,8 @@ export const DiscordBtn = styled.div`
   opacity: 1;
   background: #f32e60;
   color: #ffffff;
-  padding: 8px 20px;
-  border-radius: 20px;
+  padding: 12px 20px;
+  border-radius: 30px;
   box-shadow: 0 10px 20px -10px #f32e60;
 `;
 
