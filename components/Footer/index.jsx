@@ -16,6 +16,7 @@ export default function Header() {
       <div className="flex flex-col justify-start mx-auto flex-1">
         <div className="px-4 sm:px-6 md:px-8 flex-1 text-lg">Legal</div>
         <a
+          rel="noreferrer"
           href="https://typedream.sfo3.digitaloceanspaces.com/Typedream_Terms_of_Service.pdf"
           target="_blank"
           className="px-4 sm:px-6 md:px-8 flex-1 text-gray-600"
@@ -23,6 +24,7 @@ export default function Header() {
           Terms of Service
         </a>
         <a
+          rel="noreferrer"
           href="https://typedream.sfo3.digitaloceanspaces.com/Typedream_Privacy_Policy.pdf"
           target="_blank"
           className="px-4 sm:px-6 md:px-8 flex-1 text-gray-600"
