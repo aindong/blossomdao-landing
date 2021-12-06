@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Header from "../components/Header";
-import { Title, DiscordBtn, PinkText, PinkCard, Button } from "../styles/index.tw";
+import { Title, DiscordBtn, PinkText, PinkCard, Button, Logo } from "../styles/index.tw";
 
 import pika from "../assets/pikadao.gif";
 
@@ -25,7 +25,7 @@ export default function Home() {
 
       <Header />
 
-      <main className="flex-grow my-60">
+      <main className="flex-grow mt-60">
         <div className="flex justify-between items-center max-w-7xl m-auto">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex-1">
             <h1 className="text-5xl font-bold">Welcome to</h1>
@@ -136,8 +136,26 @@ export default function Home() {
           </div>
         </div>
 
-        <footer></footer>
+        <hr />
       </main>
+
+      <footer className="flex flex-grow my-14 mx-auto">
+        <div className="flex flex-col justify-between m-auto flex-1">
+          <div className="justify-start px-4 sm:px-6 md:px-8 flex-1">
+            <Logo>🌸</Logo>
+          </div>
+          <div className="px-4 sm:px-6 md:px-8 flex-1">BlossomDAO</div>
+          <div className="mx-auto mt-6 text-sm text-gray-500 px-4 sm:px-6 md:px-8 flex-1">
+            Copyright © 2021 BlossomDAO.eth All rights reserved.
+          </div>
+        </div>
+        <div className="flex flex-col justify-between m-auto flex-1">
+          <div className="px-4 sm:px-6 md:px-8 flex-1">Legal</div>
+          <div className="px-4 sm:px-6 md:px-8 flex-1">Terms of Service</div>
+          <div className="px-4 sm:px-6 md:px-8 flex-1">Privacy Policy</div>
+        </div>
+        <div className="flex justify-between items-center m-auto flex-1">section 3</div>
+      </footer>
     </div>
   );
 }
