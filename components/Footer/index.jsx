@@ -34,7 +34,7 @@ export default function Header() {
       </div>
       <div className="flex flex-col justify-start items-start mx-auto flex-1">
         <div className="px-2 flex-1 text-lg">Company</div>
-        <a href="#" className="my-2" rel="noreferrer">
+        <a href="https://twitter.com/EtherCluster" className="my-2" rel="noreferrer">
           <DiscordBtn>Twitter</DiscordBtn>
         </a>
         <a href="https://ethmail.cc/" className="my-2" rel="noreferrer" target="_blank">
